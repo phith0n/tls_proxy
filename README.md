@@ -25,7 +25,7 @@ A lightweight reverse proxy server that converts TLS traffic to TCP, allowing se
 ### Example
 
 ```shell
-./main -l 127.0.0.1:8443 -r 127.0.0.1:8080 -c cert.pem -k key.pem
+./tproxy -l 127.0.0.1:8443 -r 127.0.0.1:8080 -c cert.pem -k key.pem
 ```
 
 This command starts the proxy server, listening on 127.0.0.1:8443 for TLS connections, and forwarding decrypted traffic to 127.0.0.1:8080 using the specified certificate and key files.
