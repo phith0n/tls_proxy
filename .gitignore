@@ -2,3 +2,5 @@
 *.pem
 tproxy
 tproxy.exe
+
+dist/
